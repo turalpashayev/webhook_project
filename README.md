@@ -12,6 +12,15 @@ This project sets up a webhook server using Flask and runs it as a systemd servi
 
 ### 1. Clone the Repository
 
-```sh
-git clone https://github.com/your-username/webhook_project.git
-cd webhook_project
+
+webhook_project/
+├── app/
+│   ├── __init__.py
+│   ├── webhook_server.py
+├── venv/                # Virtual environment
+├── requirements.txt     # Python dependencies
+├── config/
+│   ├── config.py        # Configuration files
+├── logs/
+│   ├── app.log          # Log files
+└── uploads/             # Upload directory
