@@ -93,3 +93,14 @@ Environment="PATH=/home/your-username/webhook_project/venv/bin"
 WantedBy=multi-user.target
 ```
 
+### 6. Reload `ssytemd` and Start the Service
+```
+sudo systemctl daemon-reload
+sudo systemctl start webhook_server
+sudo systemctl enable webhook_server
+```
+
+### 7. Check the Service Status
+```
+sudo systemctl status webhook_server
+```
