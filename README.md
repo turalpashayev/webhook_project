@@ -27,7 +27,10 @@ webhook_project/
 ## Setup Instructions
 
 ### 1. Clone the Repository
+```
 git clone https://github.com/turalpashayev/webhook_project.git
 cd webhook_project
+```
+
 
 
