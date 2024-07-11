@@ -8,10 +8,7 @@ This project sets up a webhook server using Flask and runs it as a systemd servi
 - Ubuntu 2x 
 - `systemd` (for running the service)
 
-## Setup Instructions
-
-### 1. Clone the Repository
-
+### Directory Structre
 ```plaintext
 webhook_project/
 ├── app/
@@ -24,7 +21,12 @@ webhook_project/
 ├── logs/
 │   ├── app.log          # Log files
 └── uploads/             # Upload directory
-
 ```
+
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
 
 ## Test Heading 
